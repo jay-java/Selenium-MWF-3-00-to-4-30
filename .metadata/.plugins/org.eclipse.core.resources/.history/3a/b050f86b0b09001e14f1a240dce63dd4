@@ -1,0 +1,12 @@
+package fileHandling;
+class EData{
+	private int id;
+	private String name,email,address;
+	private long contact;
+	
+}
+public class SerializationNew {
+	public static void main(String[] args) {
+		
+	}
+}

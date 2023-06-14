@@ -1,0 +1,57 @@
+//constructor->is special member function of class which has same name as 
+//			class name
+//			->have no return type
+//			->automatically called when object is created
+//types->1.default 2.parameterized 3.copy
+
+//categories of function
+//1.Without return type without parameter(argument)
+//2.Without return type with parameter
+//3.With return type without parameter
+//4.With return type with parameter
+class Calculate{
+	Calculate(){
+		System.out.println("default cons");
+	}
+	Calculate(int i){
+		System.out.println("para cons");
+	}
+	Calculate(double i){
+		System.out.println("para cons double");
+	}
+	Calculate(int i,int j){
+		System.out.println("para cons");
+	}
+	
+	
+	
+	
+	public void run() {
+		System.out.println("hello run function");
+//		return 1132;
+	}
+	public void call(int i) {
+		System.out.println("i = "+i);
+	}
+	public int fun() {
+		return 123;
+	}
+	public int sqaure(int i) {
+		return i*i;
+	}
+}
+public class Constructor {
+	public static void main(String[] args) {
+		Calculate c = new Calculate();
+		
+		
+		
+		
+		
+		
+		c.call(456);
+		System.out.println(c.fun());
+		int res = c.sqaure(10);
+		System.out.println(res);
+	}
+}

@@ -1,0 +1,15 @@
+package Threading;
+//thread->is smallest unit of process.
+//		at a time we can achieve only single thread
+//we can achieve thread by two ways
+//1.Thread class
+//2.Runnable interface
+//better way to achieve thread is runnable interface
+public class ThreadDemo {
+	public static void main(String[] args) {
+		Thread t = new Thread();
+		System.out.println(t);
+		t.setName("MyThread");
+		System.out.println(t);
+	}
+}

@@ -1,0 +1,1 @@
+hello this is fiile handling by writer and reader

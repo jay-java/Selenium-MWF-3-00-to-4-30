@@ -1,0 +1,23 @@
+package fileHandling;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+class EData{
+	private int id;
+	private String name,email,address;
+	private long contact;
+	EData(int id,String name,String email,String address,long contact){
+		this.id= id;
+		this.name=name;
+		this.email = email;
+		this.address = address;
+		this.contact = contact;
+	}
+}
+public class SerializationNew {
+	public static void main(String[] args) throws FileNotFoundException {
+		EData e1 = new EData(1, "java", "java@gmail.com", "ahmedabad", 987654321);
+		FileOutputStream fos = new FileOutputStream("edata.txt");
+	}
+}

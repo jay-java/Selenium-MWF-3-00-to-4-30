@@ -1,0 +1,7 @@
+package fileHandling;
+
+public class FWriter {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package fileHandling;
+
+import java.io.FileOutputStream;
+
+public class FOS {
+	public static void main(String[] args) {
+		String s = "hi this file output stream";
+		System.out.println(s);
+		FileOutputStream fos = new FileOutputStream("myfile.txt");
+	}
+}
