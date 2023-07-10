@@ -14,6 +14,7 @@ public class FetchTableData {
 //		String data = name.getText();
 //		System.out.println(data);
 		
+//		//*[@id="customers"]/tbody/tr[5]/td[2]/span
 		List<WebElement> header = driver.findElements(By.xpath("//table[@id='customers']/tbody/tr[1]"));
 		for(WebElement s :header) {
 			System.out.println(s.getText());
