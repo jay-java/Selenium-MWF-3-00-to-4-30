@@ -27,7 +27,6 @@ public class T005_AnnotationsPra {
 		driver.findElement(By.name("login")).click();
 	}
 	
-	
 	@AfterClass
 	public static void afterClass() {
 		System.out.println("after class");
