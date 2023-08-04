@@ -1,8 +1,6 @@
 package juni_test;
-
 import java.util.Arrays;
 import java.util.List;
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
