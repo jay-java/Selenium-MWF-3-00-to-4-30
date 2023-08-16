@@ -7,7 +7,7 @@ public class Payment {
 	public void cod() {
 		System.out.println("cod test");
 	}
-	@Test(groups = "purchase")
+	@Test(groups = {"purchase","smoke"})
 	public void creditCart() {
 		System.out.println("credit card test");
 	}

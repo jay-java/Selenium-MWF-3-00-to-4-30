@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.TestNG_basic">
+      <class name="parameterized.FB_Parameter">
         <methods>
-          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- testng.TestNG_basic -->
+      </class> <!-- parameterized.FB_Parameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

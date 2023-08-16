@@ -3,6 +3,7 @@ import java.util.Scanner;
 //array->group of elements of same datatype into single variable
 public class ArrayDemo {
 	public static void main(String[] args) {
+		String a[]= {"java","python","selenium"};
 //		int date[] = {1,2,3,4,5,6,7,8,9,10,11};
 //		for(int index=0;index<date.length;index++) {
 //			System.out.println(date[index]);

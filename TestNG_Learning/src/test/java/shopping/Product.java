@@ -11,7 +11,7 @@ public class Product {
 	public void wishList() {
 		System.out.println("wishlist test");
 	}
-	@Test
+	@Test(groups = "smoke")
 	public void removeCart() {
 		System.out.println("remove cart test");
 	}

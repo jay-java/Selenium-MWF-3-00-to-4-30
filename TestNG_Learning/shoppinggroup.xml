@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Purchase">
   <groups>
   	<run>
   		<include name="purchase"></include>
@@ -12,5 +13,20 @@
       <class name="shopping.Payment"/>
       <class name="shopping.User"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
+  
+   <test thread-count="5" name="Smoke">
+  <groups>
+  	<run>
+  		<include name="smoke"></include>
+  		<exclude name="purchase"></exclude>
+  	</run>
+  </groups>
+    <classes>
+      <class name="shopping.Product"/>
+      <class name="shopping.Payment"/>
+      <class name="shopping.User"/>
+    </classes>
+  </test>
+   <!-- Test -->
 </suite> <!-- Suite -->
